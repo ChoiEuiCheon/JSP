@@ -17,7 +17,7 @@
 			이때 입력했던 ID/PW를 화면에 출력해줍니다.
 		
 		-->
-		<%@page impor="java.net.*" %>
+		<%@page import="java.net.*" %>
 		
 		<%
 			String userid = request.getParameter("userid");
@@ -33,7 +33,7 @@
 			}else
 			{
 				// URL Encoding
-				
+				userid = URLEncoder.encode(userid);
 				// Redirect
 				response.sendRedirect("04Redirect.jsp?userid="+userid+"&pwd="+pwd);
 				
