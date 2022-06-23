@@ -17,7 +17,35 @@
 			이때 입력했던 ID/PW를 화면에 출력해줍니다.
 		
 		-->
-
+		<%@page impor="java.net.*" %>
+		
+		<%
+			String userid = request.getParameter("userid");
+			String pwd = request.getParameter("pwd");
+			String isForward = request.getParameter("isForward");
+		
+			if(isForward.equals("true"))
+			{
+				// Forward
+				RequestDispatcher dispatcher=
+				request.getRequestDispatcher("03Forward.jsp");
+				dispatcher.forward(request,response);
+			}else
+			{
+				// URL Encoding
+				
+				// Redirect
+				response.sendRedirect("04Redirect.jsp?userid="+userid+"&pwd="+pwd);
+				
+				// Session객체
+				
+				
+			}
+			
+			
+			
+			
+		%>
 </body>
 </html>
 
