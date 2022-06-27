@@ -13,7 +13,7 @@
 				HttpServletResponse res =  
 				(HttpServletResponse)pageContext.getResponse();
 				
-				res.sendError(404,"에러지롱~");
+				res.sendError(404,"에러");
 
 			%>
 
