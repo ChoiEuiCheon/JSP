@@ -8,5 +8,12 @@
 </head>
 <body>
 
+	<form action="02SimpleResult.jsp" method="get">
+		<input name=bookcode><br>
+		<input name=bookname><br>
+		<input name=bookprice><br>
+		<input type=submit>
+	</form>
+
 </body>
 </html>

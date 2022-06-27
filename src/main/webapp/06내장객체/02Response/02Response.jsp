@@ -8,5 +8,9 @@
 </head>
 <body>
 
+	<%
+		response.sendError(404,"그만좀자렴 얘들아!!!.");
+	%>
+	<%=new java.util.Date().toString() %>
 </body>
 </html>

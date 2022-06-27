@@ -8,5 +8,9 @@
 </head>
 <body>
 
+ID : <%=request.getParameter("userid") %><br>
+PW : <%=request.getParameter("pwd") %><br>
+A  : <%=request.getParameter("A") %><br>
+B  : <%=request.getParameter("B") %><br>
 </body>
 </html>

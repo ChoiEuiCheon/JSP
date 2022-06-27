@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- Bean 생성 -->
+	<jsp:useBean id="bean" class="Ch05.TestBean" scope="page" />
 
+
+	<h1>RESULT</h1>
+	확인 : <%=bean.toString() %><br>
 </body>
 </html>

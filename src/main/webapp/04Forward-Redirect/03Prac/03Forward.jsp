@@ -7,11 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Forward 결과</h1>
+<h1>Forward결과</h1>
+
 
 <%
-	String userid = request.getParameter("userid");
-	String pwd = request.getParameter("pwd");
+String userid = request.getParameter("userid");
+String pwd = request.getParameter("pwd");
 %>
 ID : <%=userid %><br>
 PW : <%=pwd %><br>

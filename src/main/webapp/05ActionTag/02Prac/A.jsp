@@ -8,5 +8,8 @@
 </head>
 <body>
 
+	<jsp:forward page="B.jsp">
+		<jsp:param name="A" value="A VAL" />
+	</jsp:forward>
 </body>
 </html>

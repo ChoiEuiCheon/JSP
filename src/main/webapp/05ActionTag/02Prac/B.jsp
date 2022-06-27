@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<jsp:forward page="C.jsp">
+		<jsp:param name="B" value="B VAL" />
+	</jsp:forward>
 </body>
 </html>

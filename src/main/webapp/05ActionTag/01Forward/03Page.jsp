@@ -8,5 +8,9 @@
 </head>
 <body>
 
+	<jsp:forward page="04Result.jsp" >
+		<jsp:param name="03Page" value="03Page TEST" />
+	</jsp:forward>
+	
 </body>
 </html>
