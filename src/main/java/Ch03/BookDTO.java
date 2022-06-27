@@ -1,19 +1,15 @@
 package Ch03;
 
 public class BookDTO {
-
 	private String BookCode;
 	private String BookName;
 	private String Publisher;
-	
-	
 	public BookDTO(String bookCode, String bookName, String publisher) {
 		super();
 		BookCode = bookCode;
 		BookName = bookName;
 		Publisher = publisher;
 	}
-	
 	public String getBookCode() {
 		return BookCode;
 	}
@@ -36,7 +32,6 @@ public class BookDTO {
 	public String toString() {
 		return "BookDTO [BookCode=" + BookCode + ", BookName=" + BookName + ", Publisher=" + Publisher + "]";
 	}
-	
 	
 	
 }

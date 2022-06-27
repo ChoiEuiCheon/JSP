@@ -1,13 +1,13 @@
 package Ch03;
-public class SampleDTO{
+
+public class SampleDTO {
 	private String name;
 	private String addr;
-	public SampleDTO(String name, String addr){
+	public SampleDTO(String name, String addr) {
 		super();
 		this.name = name;
 		this.addr = addr;
 	}
-
 	public String getName() {
 		return name;
 	}
@@ -23,5 +23,6 @@ public class SampleDTO{
 	@Override
 	public String toString() {
 		return "SampleDTO [name=" + name + ", addr=" + addr + "]";
-		}
 	}
+	
+}
