@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<form action="05LoginProc.jsp">
+		ID : <input name="userid"><br>
+		PW : <input type="password" name="pwd"><br>
+		<input type=submit>
+	</form>
 </body>
 </html>
